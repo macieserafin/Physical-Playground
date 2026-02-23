@@ -1,0 +1,128 @@
+{
+  "Length": {
+    "base": "m",
+    "units": [
+      { "name": "millimeter", "symbol": "mm", "to_base": 0.001 },
+      { "name": "centimeter", "symbol": "cm", "to_base": 0.01 },
+      { "name": "meter", "symbol": "m", "to_base": 1.0 },
+      { "name": "kilometer", "symbol": "km", "to_base": 1000.0 },
+
+      { "name": "inch", "symbol": "in", "to_base": 0.0254 },
+      { "name": "foot", "symbol": "ft", "to_base": 0.3048 },
+      { "name": "mile", "symbol": "mi", "to_base": 1609.34 },
+
+      { "name": "astronomical unit", "symbol": "AU", "to_base": 1.496e11 },
+      { "name": "light year", "symbol": "ly", "to_base": 9.461e15 },
+      { "name": "parsec", "symbol": "pc", "to_base": 3.086e16 }
+    ]
+  },
+
+  "Mass": {
+    "base": "kg",
+    "units": [
+      { "name": "milligram", "symbol": "mg", "to_base": 1e-6 },
+      { "name": "gram", "symbol": "g", "to_base": 0.001 },
+      { "name": "kilogram", "symbol": "kg", "to_base": 1.0 },
+      { "name": "tonne", "symbol": "t", "to_base": 1000.0 },
+
+      { "name": "atomic mass unit", "symbol": "u", "to_base": 1.6605e-27 },
+      { "name": "mass of Earth", "symbol": "M⊕", "to_base": 5.972e24 },
+      { "name": "mass of Sun", "symbol": "M☉", "to_base": 1.989e30 }
+    ]
+  },
+
+  "Time": {
+    "base": "s",
+    "units": [
+      { "name": "millisecond", "symbol": "ms", "to_base": 0.001 },
+      { "name": "second", "symbol": "s", "to_base": 1.0 },
+      { "name": "minute", "symbol": "min", "to_base": 60.0 },
+      { "name": "hour", "symbol": "h", "to_base": 3600.0 },
+      { "name": "day", "symbol": "d", "to_base": 86400.0 },
+      { "name": "year", "symbol": "yr", "to_base": 3.154e7 }
+    ]
+  },
+
+  "Temperature": {
+    "base": "K",
+    "units": [
+      { "name": "kelvin", "symbol": "K", "to_base": 1.0, "offset": 0.0 },
+      { "name": "celsius", "symbol": "°C", "to_base": 1.0, "offset": 273.15 },
+      { "name": "fahrenheit", "symbol": "°F", "to_base": 0.5555556, "offset": 255.372 }
+    ]
+  },
+
+  "Speed": {
+    "base": "m/s",
+    "units": [
+      { "name": "meters per second", "symbol": "m/s", "to_base": 1.0 },
+      { "name": "kilometers per hour", "symbol": "km/h", "to_base": 0.277778 },
+      { "name": "miles per hour", "symbol": "mph", "to_base": 0.44704 }
+    ]
+  },
+
+  "Acceleration": {
+    "base": "m/s²",
+    "units": [
+      { "name": "meters per second squared", "symbol": "m/s²", "to_base": 1.0 },
+      { "name": "standard gravity", "symbol": "g", "to_base": 9.80665 }
+    ]
+  },
+
+  "Force": {
+    "base": "N",
+    "units": [
+      { "name": "newton", "symbol": "N", "to_base": 1.0 },
+      { "name": "kilonewton", "symbol": "kN", "to_base": 1000.0 },
+      { "name": "dyne", "symbol": "dyn", "to_base": 1e-5 }
+    ]
+  },
+
+  "Energy": {
+    "base": "J",
+    "units": [
+      { "name": "joule", "symbol": "J", "to_base": 1.0 },
+      { "name": "kilojoule", "symbol": "kJ", "to_base": 1000.0 },
+      { "name": "calorie", "symbol": "cal", "to_base": 4.184 },
+      { "name": "kilowatt hour", "symbol": "kWh", "to_base": 3.6e6 },
+
+      { "name": "electronvolt", "symbol": "eV", "to_base": 1.602e-19 },
+      { "name": "megaelectronvolt", "symbol": "MeV", "to_base": 1.602e-13 },
+      { "name": "gigaelectronvolt", "symbol": "GeV", "to_base": 1.602e-10 }
+    ]
+  },
+
+  "Power": {
+    "base": "W",
+    "units": [
+      { "name": "watt", "symbol": "W", "to_base": 1.0 },
+      { "name": "kilowatt", "symbol": "kW", "to_base": 1000.0 },
+      { "name": "horsepower", "symbol": "hp", "to_base": 745.7 }
+    ]
+  },
+
+  "Pressure": {
+    "base": "Pa",
+    "units": [
+      { "name": "pascal", "symbol": "Pa", "to_base": 1.0 },
+      { "name": "kilopascal", "symbol": "kPa", "to_base": 1000.0 },
+      { "name": "megapascal", "symbol": "MPa", "to_base": 1e6 },
+
+      { "name": "bar", "symbol": "bar", "to_base": 1e5 },
+      { "name": "atmosphere", "symbol": "atm", "to_base": 101325.0 },
+      { "name": "torr", "symbol": "Torr", "to_base": 133.322 }
+    ]
+  },
+
+  "Electricity": {
+    "base": "SI",
+    "units": [
+      { "name": "charge", "symbol": "C", "to_base": 1.0 },
+      { "name": "voltage", "symbol": "V", "to_base": 1.0 },
+      { "name": "current", "symbol": "A", "to_base": 1.0 },
+      { "name": "resistance", "symbol": "Ω", "to_base": 1.0 },
+      { "name": "capacitance", "symbol": "F", "to_base": 1.0 },
+      { "name": "magnetic field", "symbol": "T", "to_base": 1.0 }
+    ]
+  }
+}
